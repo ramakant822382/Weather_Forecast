@@ -1,0 +1,20 @@
+/* src/App.css */
+.weather-card {
+  margin-bottom: 20px;
+}
+
+.weather-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.search-bar {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .weather-list {
+    flex-direction: column;
+  }
+}
